@@ -39,14 +39,15 @@ handleChange (id) {
             }
           }
         }
-        this.setState({suggestions}, ()=>{
-          //console.log(this.state.selectedData, this.state.suggestions)
-          this.setState({showTable: true})
-        })
 
       })
     }
   }
+
+  this.setState({suggestions}, ()=>{
+    //console.log(this.state.selectedData, this.state.suggestions)
+    this.setState({showTable: true})
+  })
 }
 
 
